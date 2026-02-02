@@ -1,0 +1,243 @@
+{
+  "site": {
+    "designerName": "Alex Designer",
+    "tagline": "Minimal. Meaningful. Memorable.",
+    "bio": "I'm a multidisciplinary designer specializing in creating meaningful brand experiences through thoughtful design. With a focus on minimalism and functionality, I help businesses tell their stories through visual communication.",
+    "email": "hello@alexdesigner.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "resumeUrl": "/assets/resume.pdf",
+    "social": {
+      "behance": "https://behance.net/alexdesigner",
+      "dribbble": "https://dribbble.com/alexdesigner",
+      "instagram": "https://instagram.com/alexdesigner",
+      "linkedin": "https://linkedin.com/in/alexdesigner",
+      "twitter": "https://twitter.com/alexdesigner"
+    },
+    "theme": {
+      "primary": "#C6A57A",
+      "background": "#F7F3EE",
+      "backgroundDark": "#1A1A1A",
+      "text": "#2B2B2B",
+      "textDark": "#F7F3EE",
+      "accent": "#8B9A7F"
+    },
+    "darkMode": false
+  },
+  "skills": [
+    "Brand Identity",
+    "Logo Design",
+    "UI/UX Design",
+    "Motion Graphics",
+    "Social Media Design",
+    "Product Design",
+    "Adobe Illustrator",
+    "Adobe Photoshop",
+    "Adobe After Effects",
+    "Figma",
+    "Adobe XD"
+  ],
+  "categories": [
+    {
+      "id": "logos",
+      "title": "Logo Design",
+      "icon": "branding",
+      "description": "Timeless logos that capture brand essence",
+      "items": [
+        {
+          "id": "logo-01",
+          "title": "Organic Cafe Brand",
+          "description": "Earthy branding for a sustainable coffee shop focusing on organic, locally-sourced ingredients. The logo combines natural elements with modern minimalism.",
+          "thumbnail": "/assets/images/logos/logo1.webp",
+          "images": [
+            "/assets/images/logos/logo1.webp",
+            "/assets/images/logos/logo1-mockup.webp"
+          ],
+          "tools": ["Illustrator", "Photoshop"],
+          "figmaLink": "https://figma.com/file/organic-cafe",
+          "adobeLinks": {
+            "ai": "/assets/files/organic-cafe.ai",
+            "psd": "/assets/files/organic-cafe.psd"
+          },
+          "tags": ["branding", "minimal", "organic", "cafe"],
+          "featured": true,
+          "year": 2024
+        },
+        {
+          "id": "logo-02",
+          "title": "Tech Startup Identity",
+          "description": "Modern, clean identity for an innovative SaaS company. Geometric shapes represent structure and reliability.",
+          "thumbnail": "/assets/images/logos/logo2.webp",
+          "images": [
+            "/assets/images/logos/logo2.webp"
+          ],
+          "tools": ["Illustrator", "Figma"],
+          "figmaLink": "https://figma.com/file/tech-startup",
+          "adobeLinks": {
+            "ai": "/assets/files/tech-startup.ai"
+          },
+          "tags": ["tech", "minimal", "geometric", "startup"],
+          "featured": true,
+          "year": 2024
+        },
+        {
+          "id": "logo-03",
+          "title": "Wellness Studio Brand",
+          "description": "Calming and balanced brand identity for a yoga and wellness studio. The design emphasizes tranquility and mindfulness.",
+          "thumbnail": "/assets/images/logos/logo3.webp",
+          "images": [
+            "/assets/images/logos/logo3.webp"
+          ],
+          "tools": ["Illustrator"],
+          "figmaLink": "",
+          "adobeLinks": {
+            "ai": "/assets/files/wellness-studio.ai"
+          },
+          "tags": ["wellness", "minimal", "organic", "health"],
+          "featured": false,
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": "reels",
+      "title": "Motion Graphics",
+      "icon": "video",
+      "description": "Engaging animations and motion design",
+      "items": [
+        {
+          "id": "reel-01",
+          "title": "Product Launch Animation",
+          "description": "Dynamic product reveal animation for a tech product launch. Features smooth transitions and attention-grabbing motion.",
+          "thumbnail": "/assets/images/reels/reel1.webp",
+          "images": [
+            "/assets/images/reels/reel1.webp"
+          ],
+          "videoUrl": "https://vimeo.com/123456789",
+          "tools": ["After Effects", "Illustrator"],
+          "figmaLink": "",
+          "adobeLinks": {
+            "ae": "/assets/files/product-launch.aep"
+          },
+          "tags": ["animation", "product", "tech", "motion"],
+          "featured": true,
+          "year": 2024
+        },
+        {
+          "id": "reel-02",
+          "title": "Brand Story Video",
+          "description": "Animated brand story showcasing company values and mission through compelling visuals.",
+          "thumbnail": "/assets/images/reels/reel2.webp",
+          "images": [
+            "/assets/images/reels/reel2.webp"
+          ],
+          "videoUrl": "https://vimeo.com/123456790",
+          "tools": ["After Effects", "Photoshop"],
+          "figmaLink": "",
+          "adobeLinks": {
+            "ae": "/assets/files/brand-story.aep"
+          },
+          "tags": ["animation", "branding", "storytelling"],
+          "featured": false,
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "title": "Social Media Design",
+      "icon": "social",
+      "description": "Eye-catching content for digital platforms",
+      "items": [
+        {
+          "id": "social-01",
+          "title": "Instagram Campaign Series",
+          "description": "Cohesive Instagram post series for a fashion brand's seasonal campaign. Modern and visually striking.",
+          "thumbnail": "/assets/images/social/social1.webp",
+          "images": [
+            "/assets/images/social/social1.webp",
+            "/assets/images/social/social1-2.webp",
+            "/assets/images/social/social1-3.webp"
+          ],
+          "tools": ["Photoshop", "Illustrator"],
+          "figmaLink": "https://figma.com/file/instagram-campaign",
+          "adobeLinks": {
+            "psd": "/assets/files/instagram-campaign.psd"
+          },
+          "tags": ["social media", "instagram", "fashion", "campaign"],
+          "featured": true,
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "uiux",
+      "title": "UI/UX Design",
+      "icon": "design",
+      "description": "User-centered digital experiences",
+      "items": [
+        {
+          "id": "uiux-01",
+          "title": "E-commerce Mobile App",
+          "description": "Complete mobile app design for a sustainable fashion e-commerce platform. Focus on user experience and clean interface.",
+          "thumbnail": "/assets/images/uiux/uiux1.webp",
+          "images": [
+            "/assets/images/uiux/uiux1.webp",
+            "/assets/images/uiux/uiux1-2.webp",
+            "/assets/images/uiux/uiux1-3.webp"
+          ],
+          "tools": ["Figma", "Photoshop"],
+          "figmaLink": "https://figma.com/file/ecommerce-app",
+          "adobeLinks": {},
+          "tags": ["ui", "ux", "mobile", "ecommerce", "app"],
+          "featured": true,
+          "year": 2024
+        },
+        {
+          "id": "uiux-02",
+          "title": "SaaS Dashboard Design",
+          "description": "Intuitive dashboard interface for a project management SaaS platform. Emphasizes data visualization and usability.",
+          "thumbnail": "/assets/images/uiux/uiux2.webp",
+          "images": [
+            "/assets/images/uiux/uiux2.webp"
+          ],
+          "tools": ["Figma", "Adobe XD"],
+          "figmaLink": "https://figma.com/file/saas-dashboard",
+          "adobeLinks": {
+            "xd": "/assets/files/saas-dashboard.xd"
+          },
+          "tags": ["ui", "ux", "dashboard", "saas", "web"],
+          "featured": true,
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "title": "Product Design",
+      "icon": "product",
+      "description": "Packaging and product visualization",
+      "items": [
+        {
+          "id": "product-01",
+          "title": "Organic Skincare Packaging",
+          "description": "Natural and elegant packaging design for an organic skincare line. Earth-toned palette with premium feel.",
+          "thumbnail": "/assets/images/products/product1.webp",
+          "images": [
+            "/assets/images/products/product1.webp",
+            "/assets/images/products/product1-2.webp"
+          ],
+          "tools": ["Illustrator", "Photoshop", "After Effects"],
+          "figmaLink": "",
+          "adobeLinks": {
+            "ai": "/assets/files/skincare-packaging.ai",
+            "psd": "/assets/files/skincare-packaging.psd"
+          },
+          "tags": ["packaging", "product", "organic", "skincare"],
+          "featured": true,
+          "year": 2023
+        }
+      ]
+    }
+  ]
+}
