@@ -6,11 +6,10 @@ import { SeoService } from '../../../core/services/seo.service';
 import { PortfolioItem } from '../../../core/models/portfolio.model';
 
 @Component({
-  selector: 'app-project-detail',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  templateUrl: './project-detail.component.html',
-  styleUrl: './project-detail.component.scss'
+    selector: 'app-project-detail',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './project-detail.component.html',
+    styleUrl: './project-detail.component.scss'
 })
 export class ProjectDetailComponent implements OnInit {
   private route = inject(ActivatedRoute);

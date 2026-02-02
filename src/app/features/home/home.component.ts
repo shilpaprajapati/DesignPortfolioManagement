@@ -6,11 +6,10 @@ import { SeoService } from '../../core/services/seo.service';
 import { PortfolioItem } from '../../core/models/portfolio.model';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+    selector: 'app-home',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.scss'
 })
 export class HomeComponent {
   contentService = inject(ContentService);

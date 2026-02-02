@@ -4,11 +4,10 @@ import { ContentService } from '../../core/services/content.service';
 import { SeoService } from '../../core/services/seo.service';
 
 @Component({
-  selector: 'app-about',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.scss'
+    selector: 'app-about',
+    imports: [CommonModule],
+    templateUrl: './about.component.html',
+    styleUrl: './about.component.scss'
 })
 export class AboutComponent implements OnInit {
   contentService = inject(ContentService);
